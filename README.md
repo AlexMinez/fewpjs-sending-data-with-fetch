@@ -409,7 +409,7 @@ fetch("http://localhost:3000/dogs", configObj)
     console.log(object);
   })
   .catch(function(error) {
-    alert("Bad things! Ragnarők!");
+    window.alert("Bad things! Ragnarők!");
     console.log(error.message);
   });
 ```
